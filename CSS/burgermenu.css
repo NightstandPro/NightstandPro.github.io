@@ -1,0 +1,51 @@
+/* Menü-Balken */
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+/* Men-Balken Veränderungen */ 
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+.change .bar2 {opacity: 0;}
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+}
+
+.ClickContainer{
+    cursor: pointer;
+}
+
+.navbarSetup{
+    position: relative;
+}
+
+.navbarItemSetup a{
+    color: white;
+    font-size: 17px;
+    float: left;
+    padding: 2%;
+    padding-right: 5%;
+    text-decoration: none;
+    background-clip: border-box;
+    background-color: #1A1A1A;
+}
+
+.navbarItemSetup a:hover{
+    background-color: #FC328D;
+    color: black;
+    width: auto;
+    height: 2%;
+}
+
+.navbarItemSetup{
+    display: none;
+    margin-left: 27%;
+
+}
