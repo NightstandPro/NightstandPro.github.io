@@ -33,21 +33,19 @@ body{
     text-align: left;
     color: white;
     font-size: 30px;
-    padding-left: 200px;
+    max-width: 75%;
+    margin: auto;
 }
 
-#Bild1{
-    
-    text-align: right;
-    padding-right: 300px;
-}
 
 .Bild1{
-    height: 15%;
-    width: 15%;
+    /* height: 15%;
+    width: 15%; */
+    max-height: 15%;
+    max-width: 15%;
     float: right;
-    padding-right: 100px;
-    margin-left: 20px;
+    padding-right: 4%;
+    margin-left: 1%;
 }
 
 
@@ -100,6 +98,16 @@ body{
     margin-right: 30px;
     padding-top: 50px;
 
+}
+
+
+.Bild7{
+    width: 10%;
+    height: 10%;
+    float: left;
+    padding-left: 100px;
+    margin-right: 30px;
+    padding-top: 50px;
 }
 
 
