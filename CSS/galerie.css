@@ -9,20 +9,24 @@ body{
 
 /* Anordnung des Containers */
 .ContainerSetup{
-    margin-left: 22%;
-    margin-top: 6%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 6% 10% 0% 10%;
+    justify-content: center;
 }
 
 /* Bilder */
-.BilderItem{
-    margin-right: 3%;
-}
+.GallerieBox{
+    display: flex;
+    background-color: red; 
+    margin: 2%;
+    width: 300px;
+    height: 150px;
+    min-width: 300px;
+    min-height: 150px;
+    flex-basis: 20%;
+}   
 
-/* Reihencontainer */
-.rowcontainer{
-    padding-top: 2%;
-    align-items: center;
-}
 
 
 /* NavbarItems */
