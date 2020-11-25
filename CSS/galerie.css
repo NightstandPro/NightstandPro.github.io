@@ -2,8 +2,9 @@
 
 /* Eigenes CSS*/
 body{
-    background-color: black;
-    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    background-image: url(/Images/Galerie_Background.gif);
+    background-color: rgb(2, 2, 2);
+    background-blend-mode: darken;
     font-family: 'Nunito', sans-serif;
 }
 
@@ -11,20 +12,25 @@ body{
 .ContainerSetup{
     display: flex;
     flex-wrap: wrap;
-    margin: 6% 10% 0% 10%;
     justify-content: center;
+    align-items: center;
+    margin: 5% 10% 0% 10%;
 }
 
 /* Bilder */
-.GallerieBox{
-    display: flex;
-    background-color: red; 
-    margin: 2%;
+.GallerieBox{  
+    /* 
     width: 300px;
+    max-width: 100%;
     height: 150px;
-    min-width: 300px;
-    min-height: 150px;
+    */
+
+    width: 300px;
+    height: auto;
     flex-basis: 20%;
+    image-rendering: optimizeSpeed;
+    margin: 3px;
+    align-self: center;
 }   
 
 
