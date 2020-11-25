@@ -1,9 +1,4 @@
 /* Google Schrift */
-/* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap'); */
-/* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap'); */
-/* @import url('https://fonts.googleapis.com/css2?family=Nunito:ital@1&family=Poppins:ital,wght@1,300&display=swap'); */
-/* @import url('https://fonts.googleapis.com/css2?family=Nunito:ital@1&family=Poppins:ital,wght@1,300&display=swap'); */
-/* @import url('https://fonts.googleapis.com/css2?family=Nunito:ital@1&family=Poppins:ital,wght@1,300&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital@1&family=Poppins:ital,wght@1,300&display=swap');
 
 ::selection{
@@ -39,8 +34,6 @@ body{
 
 
 .Bild1{
-    /* height: 15%;
-    width: 15%; */
     max-height: 15%;
     max-width: 15%;
     float: right;

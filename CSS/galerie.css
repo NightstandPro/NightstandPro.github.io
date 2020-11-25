@@ -19,17 +19,12 @@ body{
 
 /* Bilder */
 .GallerieBox{  
-    /* 
-    width: 300px;
-    max-width: 100%;
-    height: 150px;
-    */
-
     width: 300px;
     height: auto;
     flex-basis: 20%;
     image-rendering: optimizeSpeed;
-    margin: 3px;
+    margin-left: 3px;
+    margin-bottom: 3px;
     align-self: center;
 }   
 
