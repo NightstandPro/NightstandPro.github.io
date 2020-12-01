@@ -22,7 +22,7 @@ body{
     width: 300px;
     height: auto;
     flex-basis: 20%;
-    image-rendering: optimizeSpeed;
+    image-rendering: pixelated;
     margin-left: 3px;
     margin-bottom: 3px;
     align-self: center;
