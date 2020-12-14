@@ -17,7 +17,6 @@
     }
     .ueberschrift{
         font-size: 150px;
-        background-color: red;
     }
     .Text_einleitung{
         font-size: 55px;
@@ -33,7 +32,6 @@
     }
     .ueberschrift{
         font-size: 60px;
-        background-color: yellow;
     }
     .Text_einleitung{
         font-size: 25px;
@@ -50,7 +48,6 @@
     }
     .ueberschrift{
         font-size: 65px;
-        background-color: limegreen;
     }
     .Text_einleitung{
         font-size: 25px;
@@ -64,6 +61,10 @@ body{
     background-color: black;
     /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
     font-family: 'Nunito', sans-serif;
+}
+
+hr{
+    border: 2px solid #FC328D;
 }
 
 .ueberschrift{
