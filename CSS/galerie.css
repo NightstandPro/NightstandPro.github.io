@@ -8,6 +8,10 @@ body{
     font-family: 'Nunito', sans-serif;
 }
 
+::selection{
+    background-color: #FC328D;
+}
+
 /* Anordnung des Containers */
 .ContainerSetup{
     display: flex;
@@ -22,7 +26,6 @@ body{
     width: 300px;
     height: auto;
     flex-basis: 20%;
-    image-rendering: pixelated;
     margin-left: 3px;
     margin-bottom: 3px;
     align-self: center;
@@ -34,4 +37,16 @@ body{
 .WebLinks{
     transition: all;
     justify-content: right;
+}
+
+hr{
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+.UnterÜberschrift{
+    text-align: center;
+    color: white;
 }
