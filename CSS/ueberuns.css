@@ -17,6 +17,7 @@ body{
     flex-wrap: wrap;
     justify-content: center;
     margin: 4%;
+    
 }
 
 .ueberschrift{
@@ -29,7 +30,7 @@ body{
 
 p{
   color: white;
-  font-size: 30px;
+  font-size: 20px;
   float: left;
 }
 
@@ -51,8 +52,8 @@ td{
 .textAufgabe{
     color: white;
     text-align: center;
-    font-size: 30px;
-    padding: 5px;
+    font-size: 20px;
+    padding: 10px;
 }
 
 
