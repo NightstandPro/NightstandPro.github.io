@@ -33,7 +33,8 @@ body{
 }
 
 @keyframes TextAnimation{
-    0%   {
+    0%   
+    {
         top: -400px;
         color: black;
     }
