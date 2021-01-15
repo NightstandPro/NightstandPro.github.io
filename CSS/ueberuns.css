@@ -1,17 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:ital@1&family=Poppins:ital,wght@1,300&display=swap');
-
-
-
-::selection{
-    background-color: #FC328D;
-}
-
-body{
-    background-color: black;
-    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
-    font-family: 'Nunito', sans-serif;
-}
-
 #FlexDiv{
     display: flex;
     flex-wrap: wrap;
