@@ -40,8 +40,6 @@
     }
     
     .iframeClass{
-        width: auto;
-        height: auto;
         margin-left: 15%; 
         margin-right: 15%; 
         display: block;
