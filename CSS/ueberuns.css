@@ -29,7 +29,7 @@ body{
 
 p{
   color: white;
-  font-size: 30px;
+  font-size: 25px;
   float: left;
 }
 
@@ -48,10 +48,13 @@ td{
     border-collapse: collapse;
 }
 
+
+
+
 .textAufgabe{
     color: white;
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
     padding: 5px;
 }
 
