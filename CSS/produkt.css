@@ -1,9 +1,28 @@
+@keyframes TextAnimation{
+    0%   
+    {
+        top: -400px;
+        color: black;
+    }
+    100% {
+        top: 0px;
+        color: white;
+    }
+}
+
+
+
+
+
+
 .ueberschrift{
     color: white;
     display: block;
     text-align: center;
     animation: TextAnimation forwards 2.5s;
 }
+
+
 
 @media screen and (max-width: 500px)
 {
@@ -35,10 +54,39 @@
         animation: TextAnimation forwards 2.5s;
     }
 
+
+
     .Text{
-        font-size: 30px;
+        font-size: 25px;
+        color: white;
+        padding: 5px;
+        text-align: center;
     }
     
+    .Text2{
+        text-align: center;
+        font-size: 25px;
+        color: white;
+        list-style-type: square;
+        
+    }
+
+    .List{
+        text-align: center;
+        width: 30%;
+        display: block;
+        margin-left: 35%;
+        margin-left: 35%;
+    }
+
+    .div_Text{
+        display: block;
+        margin-left: 15%;
+        margin-right: 15%;
+        background-color: #FC328D;
+        
+        
+    }
     .iframeClass{
         margin-left: 15%; 
         margin-right: 15%; 
