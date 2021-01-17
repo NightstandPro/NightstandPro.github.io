@@ -11,6 +11,10 @@
 }
 
 
+.Video{
+    text-align: center;
+}
+
 
 
 
@@ -92,4 +96,5 @@
         margin-right: 15%; 
         display: block;
     }
+
 }
