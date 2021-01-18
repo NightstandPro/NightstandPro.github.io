@@ -10,6 +10,20 @@
     }
 }
 
+.DivUeberschrift{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.DivUeberschrift > img{
+    width: auto;
+    height: 100px;
+    position: relative;
+    margin-top: 80px;
+    margin-right: 10px;
+    animation: TextAnimation forwards 2.5s;
+}
 
 .ueberschrift{
     color: white;
