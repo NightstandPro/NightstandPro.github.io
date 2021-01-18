@@ -11,14 +11,6 @@
 }
 
 
-.Video{
-    text-align: center;
-}
-
-
-
-
-
 .ueberschrift{
     color: white;
     display: block;
@@ -27,11 +19,11 @@
 }
 
 
-
 @media screen and (max-width: 500px)
 {
     .ueberschrift{
         font-size: 60px;
+        animation: TextAnimation forwards 2.5s;
     }
 
     .Text{
@@ -42,6 +34,29 @@
         animation: TextAnimation forwards 2.5s;
         display: block;
     }
+
+    .List > ul > li{
+        list-style-type: square;
+        font-size: 15px;
+        color: white;
+        text-align: center;
+    }
+
+    .List{
+        text-align: center;
+        width: 30%;
+        display: block;
+        margin-left: 35%;
+        margin-left: 35%;
+    }
+
+
+    .div_Text{
+        display: block;
+        margin-left: 15%;
+        margin-right: 15%;
+        background-color: #FC328D;
+    }
     
     .iframeClass{
         max-height: 350px;
@@ -50,6 +65,16 @@
         display: block;
     }
 
+    .Video{
+        text-align: center;
+        border: 2px solid #FC328D;
+        margin: 5% 5% 5%;
+    }
+    
+    .Video > video{
+        max-width: 100%;
+        max-height: auto;
+    }
 }
 
 @media screen and (min-width: 501px){
@@ -58,21 +83,18 @@
         animation: TextAnimation forwards 2.5s;
     }
 
-
-
     .Text{
         font-size: 25px;
         color: white;
         padding: 5px;
         text-align: center;
     }
-    
-    .Text2{
-        text-align: center;
+
+    .List > ul > li{
+        list-style-type: square;
         font-size: 25px;
         color: white;
-        list-style-type: square;
-        
+        text-align: center;
     }
 
     .List{
@@ -88,13 +110,22 @@
         margin-left: 15%;
         margin-right: 15%;
         background-color: #FC328D;
-        
-        
     }
+
     .iframeClass{
         margin-left: 15%; 
         margin-right: 15%; 
         display: block;
     }
 
+    .Video{
+        text-align: center;
+        border: 2px solid #FC328D;
+        margin: 5% 15% 15%;
+    }
+    
+    .Video > video{
+        max-width: 100%;
+        max-height: auto;
+    }
 }
