@@ -11,6 +11,11 @@
 }
 
 
+.slogan{
+    text-decoration: underline #FC328D;
+}
+
+
 @media screen and (max-width: 500px)
 {
     .ueberschrift{
