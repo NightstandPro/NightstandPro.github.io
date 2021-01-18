@@ -14,6 +14,7 @@
 .ueberschrift{
     color: white;
     display: block;
+    position: relative;
     text-align: center;
     animation: TextAnimation forwards 2.5s;
 }
